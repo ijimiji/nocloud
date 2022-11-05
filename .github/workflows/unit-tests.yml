@@ -1,8 +1,10 @@
-  name: Run unit tests
-  on:
-    push:
-      branches: [ master ]
+name: Run unit tests
 
+on:
+  push:
+    branches: [ master ]
+
+jobs:
   run-unit-tests:
     runs-on: ubuntu-latest
     steps:
