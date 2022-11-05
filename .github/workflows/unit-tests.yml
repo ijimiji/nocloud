@@ -15,5 +15,5 @@ jobs:
         uses: cloudposse/github-action-docker-compose-test-run@main
         with:
           file: test/unit-tests.yml
-          service: db
+          service: test
           command: test/unit-tests.sh
